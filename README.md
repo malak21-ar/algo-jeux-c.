@@ -1,15 +1,37 @@
-# Jeu de parties – Algorithme 3 (C)
+Multiplayer Game Simulation – C
+* Overview
+This project was developed as part of the Algorithms 3 module.
+It consists of implementing a multiplayer game using dynamic data structures such as linked lists and queues in C. 
 
-Projet universitaire réalisé en langage C pour le module d'algorithmique.
+* Objectives
 
-## Description
-Simulation d’un jeu entre plusieurs joueurs avec gestion de files et listes selon leurs victoires et défaites. Deux stratégies de jeu sont implémentées pour calculer les scores. Affichage de l’état des parties, classement des joueurs et suivi automatique des résultats.
+Implement linked lists and queues
+Practice algorithm design and complexity analysis
+Develop a structured C program
+Simulate a complete multiplayer game system 
 
-## Fonctionnalités
-- Gestion des joueurs : nom, numéro, âge.
-- Simulation de parties avec deux stratégies de calcul des scores.
-- Priorisation et suivi des joueurs : files F1, F3 et listes de gagnants/perdants (LG/LP).
-- Horodatage automatique des parties et affichage des résultats.
+# Game Concept
+Players are stored in a waiting queue.
+Each game match involves two players who receive random numbers to calculate scores based on defined strategies. 
 
-## Auteur
+#The system manages:
+Player wins and losses
+Priority queues
+Winner and loser lists
+Match history and results tracking 
+
+# Features
+
+- Multiplayer simulation
+- Queue and linked list management
+- Two game strategies
+- Player ranking and statistics
+- Automatic match result tracking
+
+# Technologies
+-C Language
+-Dynamic Data Structures
+-Algorithms
+
+# Auteur
 Malak
